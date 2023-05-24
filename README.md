@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Yolo v4, v3 and v2 for Windows and Linux
 
 ## (neural networks for object detection)
@@ -842,3 +843,6 @@ public:
     pages     = {13029-13038}
 }
 ```
+=======
+# AI-Vote-Counter
+>>>>>>> origin/main
