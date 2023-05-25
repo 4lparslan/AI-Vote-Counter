@@ -61,7 +61,7 @@ while success:
     im_out = image.copy()
     gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
-    im_out = cv.putText(img=im_out, text="str(ballot_number), org=(50, 50), fontFace=cv.FONT_HERSHEY_SIMPLEX,
+    im_out = cv.putText(img=im_out, text="sayilan oy =" +str(ballot_number), org=(50, 50), fontFace=cv.FONT_HERSHEY_SIMPLEX,
                        fontScale=0.8, color=(0, 255, 255), thickness=2)
     im_out = cv.putText(img=im_out, text="erdogan = " + str(votes[str(0)]), org=(50, 85), fontFace=cv.FONT_HERSHEY_SIMPLEX,
                        fontScale=0.8, color=(255, 255, 0), thickness=2)
