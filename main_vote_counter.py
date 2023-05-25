@@ -33,7 +33,7 @@ kp1, des1 = sift.detectAndCompute(img_base, None)
 # port = 8080
 # video_stream_url = f"http://{ip_address}:{port}/video"
 
-cap = cv.VideoCapture("test-video.avi")
+cap = cv.VideoCapture("test-video.mp4")
 success, image = cap.read()
 image = cv.resize(image, (1280,720))
 
